@@ -1,10 +1,12 @@
 # Tuberculosis Detection by Convolutional Neural Networks
 This project is an attempt to create a neural network that can detect tuberculosis at a reasonable accuracy from purely x-ray images.
+
 Overall results are about 70-80% accuracy and 80-85% recall score.
 
 # Dataset
 **Dataset not included on Github because it's 4gb** 
 Download from the Kaggle link.
+
 Pulmonary Chest X-Ray Abnormalities from K Scott Mader
 Available on Kaggle at https://www.kaggle.com/datasets/kmader/pulmonary-chest-xray-abnormalities
 
@@ -18,6 +20,7 @@ i.e If the model says every patient has tuberculosis, it has a perfect recall sc
 
 # About Developers
 Nicholas Sam, 3rd year, Wilfrid Laurier University
+
 James Puppin, 4th year, Wilfrid Laurier University
 
 # License
