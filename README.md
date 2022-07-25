@@ -11,7 +11,18 @@ Pulmonary Chest X-Ray Abnormalities from K Scott Mader
 Available on Kaggle at https://www.kaggle.com/datasets/kmader/pulmonary-chest-xray-abnormalities
 
 # Installation/Execution
-Make sure you have all the libraries installed, and just use Run All on the .ipynb
+1. Make sure you have all the libraries installed.
+2. Download the dataset from the Kaggle link.
+3. Create a folder in the same folder as cp468.ipynb named "input"
+4. Move all the files from \archive\ChinaSet_AllFiles\ChinaSet_AllFiles\CXR_png\ to \input\china_xrays\
+5. Move all files from \archive\Montgomery\MontgomerySet\CXR_png\ to \input\montgomery_xrays\
+File structure should look like this:
+-cp468.ipynb
+-input
+--china_xrays
+--\-xray images from the china set
+--montgomery_xrays
+--\-xray images from the montgomery set
 
 # Performance Parameters
 Most weight was put in recall, to measure how accurate the model was when the patient truly has tuberculosis.
