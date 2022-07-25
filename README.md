@@ -16,12 +16,19 @@ Available on Kaggle at https://www.kaggle.com/datasets/kmader/pulmonary-chest-xr
 3. Create a folder in the same folder as cp468.ipynb named "input"
 4. Move all the files from \archive\ChinaSet_AllFiles\ChinaSet_AllFiles\CXR_png\ to \input\china_xrays\
 5. Move all files from \archive\Montgomery\MontgomerySet\CXR_png\ to \input\montgomery_xrays\
+
 File structure should look like this:
+
 -cp468.ipynb
+
 -input
+
 --china_xrays
+
 --\-xray images from the china set
+
 --montgomery_xrays
+
 --\-xray images from the montgomery set
 
 # Performance Parameters
